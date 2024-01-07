@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6", // 编译成es6代码
+    "module": "NodeNext", // 模块选择
+    "outDir": "bin", // 输出到bin目录下
+    "moduleResolution": "NodeNext", // 模块解析方式
+    "esModuleInterop": true, // 模块转换
+    "resolveJsonModule": true, // 允许解析json
+    "rootDir": "src", // 根目录src,就是将src目录下的内容输出到bin下
+    "baseUrl": "/src"
+  },
+  "include": ["src"], // src目录为原代码目录
+  "exclude": ["node modules"]
+}
